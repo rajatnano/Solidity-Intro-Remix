@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0
+
 //the following code is "Hello World" program for Solidity 
 
 pragma solidity ^0.6.0;
