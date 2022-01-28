@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: GPL-3.0
+
+
 //this program discusses non-state change functions "view" and "pure"
 
 pragma solidity ^0.6.0;
