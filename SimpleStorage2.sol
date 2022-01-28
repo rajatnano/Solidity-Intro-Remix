@@ -1,3 +1,5 @@
+//this program discusses non-state change functions "view" and "pure"
+
 pragma solidity ^0.6.0;
 
 contract SimpleStorage{
