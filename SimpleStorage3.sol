@@ -13,10 +13,11 @@ contract SimpleStorageList {
         uint256 favoriteNumber;
     }
 
-    //People[] creates dynamic array; People[10] will create a static array with max 10 entries 
+    //People[] creates a public dynamic array object "people" of struct People; People[10] will create a static array with max 10 entries
+    //keeping it public allows user to search array elements with the help of index value
     People[] public people;
 
-    //to search favoriteNumber using people's name
+    //using mapping function to search favoriteNumber using name
     mapping(string => uint256) public nameToFavoriteNumber;
 
     function addPerson(string memory _name, uint256 _favoriteNumber) public {
