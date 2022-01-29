@@ -7,10 +7,10 @@ pragma solidity ^0.6.0;
 
 
 //name and initiate a contract
-contract SimpleStorage{  
+contract SimpleStorage {  
     
-    //declare variable; default value will be take as 0; not public by default
-    uint256  public favoriteNumber;  
+    //declare variable; default value will be take as 0; type "internal" by default
+    uint256 public favoriteNumber;  
 
     //declare a public function and parameter
     function store(uint256 _favotiteNumber) public { 
