@@ -9,14 +9,14 @@ contract SimpleStorage{
 
     uint256 favoriteNumber;
 
-    function store(uint256 _favotiteNumber) public {
-        favoriteNumber = _favotiteNumber;
+    function store(uint256 _favoriteNumber) public {
+        favoriteNumber = _favoriteNumber;
     }
 
-    //we can create "public" function and name it retrieve to "view" (blue) our stored value
-    //if "view" is not specified then it acts as a trasaction (orange)    
+    //we can create "public" function and name it retrieve to "view" (in blue) our stored value
+    //if "view" is not specified then it acts as a trasaction (in orange)    
     
-    function retrieve() public view returns(uint256){
+    function retrieve() public view returns(uint256) {
         return favoriteNumber;
     }
 
