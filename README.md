@@ -1,4 +1,4 @@
-# solidity-remix-intro
+# Solidity-Intro-Remix
 
 Introduction to solidity with the help of three contracts. These contracts are deployed using Remix.
 
