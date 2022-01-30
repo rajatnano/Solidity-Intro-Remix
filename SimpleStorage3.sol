@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 
 /*Program to store list of people with their name and favorite number
-with added functionality of searching a person's favortie number using their name*/
+with added functionality of searching a person's favorite number using their name*/
 
 pragma solidity ^0.8.0;
 
